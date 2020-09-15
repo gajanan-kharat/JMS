@@ -11,7 +11,7 @@ import javax.jms.TextMessage;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-public class P2PUsingQueue {
+public class P2PUsingQueueJMS1_X {
 	public static void main(String[] args) {
 		InitialContext initialContext = null;
 		Connection connection = null;
