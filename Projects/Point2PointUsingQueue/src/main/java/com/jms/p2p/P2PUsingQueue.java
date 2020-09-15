@@ -1,4 +1,4 @@
-package com.jms.jmsfundamentals;
+package com.jms.p2p;
 
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
@@ -11,7 +11,7 @@ import javax.jms.TextMessage;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-public class FirstQueue {
+public class P2PUsingQueue {
 	public static void main(String[] args) {
 		InitialContext initialContext = null;
 		Connection connection = null;

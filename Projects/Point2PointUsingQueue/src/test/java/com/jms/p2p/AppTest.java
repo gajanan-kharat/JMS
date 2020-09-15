@@ -1,4 +1,4 @@
-package com.jms.jmsfundamentals;
+package com.jms.p2p;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

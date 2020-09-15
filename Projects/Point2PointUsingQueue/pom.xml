@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jms</groupId>
-	<artifactId>jmsfundamentals</artifactId>
+	<artifactId>Point2PointUsingQueue</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>jmsfundamentals</name>
+	<name>Point2PointUsingQueue</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -21,12 +21,10 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.activemq/artemis-jms-client-all -->
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>artemis-jms-client-all</artifactId>
 			<version>2.6.4</version>
 		</dependency>
-
 	</dependencies>
 </project>
